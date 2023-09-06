@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"sega UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+.form-line{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+#search{
+  /* position: relative;
+  left: 200px;
+  margin-bottom: 40px; */
+ 
+    margin-bottom: 10px;
+  /* display: inline; */
+  padding: 10px 10px;
+  border-radius: 10px;
+ 
+  
+}
+.horizantal{
+  margin-bottom: 10px;
+  /* width: 90%; */
+ 
+}
+code{
+  font-family:source-code-pro,Menlo,Monaco,Consolas,"Courier New"monospace;
+
+}
+
+.App{
+ 
+  text-align: center;
+}
+#search{
+  /* float: right;
+   */
+   float: center;
+}
+.cocktail-data{
+  display:grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+.cocktail-data li{
+  list-style-type: none;
+  position: relative;
+  left:10px;
+  /* right: 5px; */
+}
+.cocktail-data li  img {
+  width: 100%;
+  max-height: 250px;
+  /* object-fit: cover; */
+
+}
+.cocktail-data .text{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+
+}
+
+@media screen and (min-width:769px){
+  .cocktail-data{
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
